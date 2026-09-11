@@ -1,0 +1,6 @@
+*
+!Dockerfile
+!requirements.lock
+!source-install-report.json
+!expected.json
+!verify_stack.py
