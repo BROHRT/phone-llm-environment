@@ -2,7 +2,7 @@
 import argparse,json,pathlib,shutil,signal,time
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--path',required=True,type=pathlib.Path);p.add_argument('--out',required=True,type=pathlib.Path);p.add_argument('--interval',type=float,default=2);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--path',required=True,type=pathlib.Path);p.add_argument('--out',required=True,type=pathlib.Path);p.add_argument('--interval',type=float,default=1);a=p.parse_args()
     if a.interval<=0:raise ValueError('positive interval required')
     a.out.mkdir(parents=True,exist_ok=True);running=True;samples=[]
     def stop(*_):

@@ -1,0 +1,1661 @@
+{
+  "issued_unix": 1789140257.114239,
+  "method": "HTTPS HEAD plus bounded ZIP central-directory ranges; sizes are archive metadata, not measured installed footprint",
+  "wheel_count": 55,
+  "compressed_archive_bytes": 4170136781,
+  "zip_entries_uncompressed_bytes": 7320157249,
+  "wheels": [
+    {
+      "name": "accelerate",
+      "version": "1.12.0",
+      "url": "https://files.pythonhosted.org/packages/9f/d2/c581486aa6c4fbd7394c23c47b83fa1a919d34194e16944241daf9e762dd/accelerate-1.12.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "3e2091cd341423207e2f084a6654b1efcd250dc326f2a37d6dde446e07cabb11",
+      "compressed_archive_bytes": 380935,
+      "zip_entries_uncompressed_bytes": 1490305,
+      "zip_entries": 90,
+      "range_receipts": [
+        {
+          "start": 380913,
+          "end": 380934,
+          "bytes": 22,
+          "sha256": "bde1b5dfad2262ca4b23ee419ec4c0891358ae4c08d12133ea39f9e23a6b4385"
+        },
+        {
+          "start": 380893,
+          "end": 380912,
+          "bytes": 20,
+          "sha256": "3bffeebfe3ad45285657f6e66ff0a8730087b957b15b2b43e1841149f830ca88"
+        },
+        {
+          "start": 373613,
+          "end": 380912,
+          "bytes": 7300,
+          "sha256": "26865efaab33e9d57e1ad2d37ed6269c1414853a82236d1b060fd0dcecc08807"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "peft",
+      "version": "0.18.1",
+      "url": "https://files.pythonhosted.org/packages/b3/14/b4e3f574acf349ae6f61f9c000a77f97a3b315b4bb6ad03791e79ae4a568/peft-0.18.1-py3-none-any.whl",
+      "pinned_wheel_sha256": "0bf06847a3551e3019fc58c440cffc9a6b73e6e2962c95b52e224f77bbdb50f1",
+      "compressed_archive_bytes": 556960,
+      "zip_entries_uncompressed_bytes": 1989731,
+      "zip_entries": 190,
+      "range_receipts": [
+        {
+          "start": 556938,
+          "end": 556959,
+          "bytes": 22,
+          "sha256": "00b48f1b28d35710670409ad1e7f470bbf6363c3e2d8523d5788512f0acbdf23"
+        },
+        {
+          "start": 556918,
+          "end": 556937,
+          "bytes": 20,
+          "sha256": "938d3d52ea76cb6e4f916cc8059d14716cb0394ba7bd8ba1a81a50263940d497"
+        },
+        {
+          "start": 543052,
+          "end": 556937,
+          "bytes": 13886,
+          "sha256": "5fe7d95e2870a5e5a4023cecc0acc8e4fbdfd142b2875186f148236dc1784a02"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "torch",
+      "version": "2.10.0",
+      "url": "https://files.pythonhosted.org/packages/b3/7a/abada41517ce0011775f0f4eacc79659bc9bc6c361e6bfe6f7052a6b9363/torch-2.10.0-3-cp312-cp312-manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "98c01b8bb5e3240426dcde1446eed6f40c778091c8544767ef1168fc663a05a6",
+      "compressed_archive_bytes": 915622781,
+      "zip_entries_uncompressed_bytes": 1761574595,
+      "zip_entries": 11780,
+      "range_receipts": [
+        {
+          "start": 915622759,
+          "end": 915622780,
+          "bytes": 22,
+          "sha256": "46f7bf6bf4685925ca7b28503e1e6f9c521869edeaa037a1b2f1a48680330221"
+        },
+        {
+          "start": 915622739,
+          "end": 915622758,
+          "bytes": 20,
+          "sha256": "96e74699ed48df2f54ba63d474f40160378f745f4855f74924b39659767e39f0"
+        },
+        {
+          "start": 914507205,
+          "end": 915622758,
+          "bytes": 1115554,
+          "sha256": "38fab6b9f9172ef69758a7ddba49f3613d62d1ff480bc995701daf3f009e5b23"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "transformers",
+      "version": "5.3.0",
+      "url": "https://files.pythonhosted.org/packages/b8/88/ae8320064e32679a5429a2c9ebbc05c2bf32cefb6e076f9b07f6d685a9b4/transformers-5.3.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "50ac8c89c3c7033444fb3f9f53138096b997ebb70d4b5e50a2e810bf12d3d29a",
+      "compressed_archive_bytes": 10661827,
+      "zip_entries_uncompressed_bytes": 44838120,
+      "zip_entries": 2176,
+      "range_receipts": [
+        {
+          "start": 10661805,
+          "end": 10661826,
+          "bytes": 22,
+          "sha256": "19727651d56b7351ee45a21358803421bf62d4e6dfef366902f15d54c96e2c5f"
+        },
+        {
+          "start": 10661785,
+          "end": 10661804,
+          "bytes": 20,
+          "sha256": "67f8e0a955639fe49162ae455b9a08c99b2efe8ea2d0ea3108f34bc93d4bf557"
+        },
+        {
+          "start": 10454777,
+          "end": 10661804,
+          "bytes": 207028,
+          "sha256": "5d182b611462b0fd4c65fe351f48ac88f9fed1483db816d5193625fa6a2fe130"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "cuda-bindings",
+      "version": "12.9.4",
+      "url": "https://files.pythonhosted.org/packages/a9/c1/dabe88f52c3e3760d861401bb994df08f672ec893b8f7592dc91626adcf3/cuda_bindings-12.9.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "fda147a344e8eaeca0c6ff113d2851ffca8f7dfc0a6c932374ee5c47caa649c8",
+      "compressed_archive_bytes": 12151019,
+      "zip_entries_uncompressed_bytes": 110606602,
+      "zip_entries": 144,
+      "range_receipts": [
+        {
+          "start": 12150997,
+          "end": 12151018,
+          "bytes": 22,
+          "sha256": "936aa993d72088152c84a0310a26b76ae95c1339df0c28b09a30e01c1ef9371b"
+        },
+        {
+          "start": 12150977,
+          "end": 12150996,
+          "bytes": 20,
+          "sha256": "c35c7d916229c71991ac190ad17847afa239328feecebdeed79a8a56db4252ef"
+        },
+        {
+          "start": 12139600,
+          "end": 12150996,
+          "bytes": 11397,
+          "sha256": "59f0b3ad87d3172af737b90085c0179946e27de21f32964b44bb0e086c7e8954"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.8.4.1",
+      "url": "https://files.pythonhosted.org/packages/dc/61/e24b560ab2e2eaeb3c839129175fb330dfcfc29e5203196e5541a4c44682/nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl",
+      "pinned_wheel_sha256": "8ac4e771d5a348c551b2a426eda6193c19aa630236b418086020df5ba9667142",
+      "compressed_archive_bytes": 594346921,
+      "zip_entries_uncompressed_bytes": 869571101,
+      "zip_entries": 18,
+      "range_receipts": [
+        {
+          "start": 594346899,
+          "end": 594346920,
+          "bytes": 22,
+          "sha256": "23eef2529e0b460c62fac97cb43aa314a2bb1d46eff535e7c27a04aa5a57ad24"
+        },
+        {
+          "start": 594346879,
+          "end": 594346898,
+          "bytes": 20,
+          "sha256": "12c34f886772f629db9d2213b868a7ee1a2141f470b0180146da8eb19866ec0f"
+        },
+        {
+          "start": 594345441,
+          "end": 594346898,
+          "bytes": 1458,
+          "sha256": "445c72836cdcdffd24c1b297257ae3c59cae645fdbf363f398eb5666c1e51676"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.8.90",
+      "url": "https://files.pythonhosted.org/packages/f8/02/2adcaa145158bf1a8295d83591d22e4103dbfd821bcaf6f3f53151ca4ffa/nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "ea0cb07ebda26bb9b29ba82cda34849e73c166c18162d3913575b0c9db9a6182",
+      "compressed_archive_bytes": 10248621,
+      "zip_entries_uncompressed_bytes": 42519186,
+      "zip_entries": 51,
+      "range_receipts": [
+        {
+          "start": 10248599,
+          "end": 10248620,
+          "bytes": 22,
+          "sha256": "3221cd50f57bebecbb4515b1cc0b0f1f5937f15b4fe88c210aa44d2af0811d47"
+        },
+        {
+          "start": 10248579,
+          "end": 10248598,
+          "bytes": 20,
+          "sha256": "57d3b8839114dc4881d3cbe369f979e561effd68af800829ed0a70ee326e7d20"
+        },
+        {
+          "start": 10244000,
+          "end": 10248598,
+          "bytes": 4599,
+          "sha256": "1af3c1af3c2b3bbdba9f0357fedcf006b5af76ad39b868eb5d7bba564533e03d"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.8.93",
+      "url": "https://files.pythonhosted.org/packages/05/6b/32f747947df2da6994e999492ab306a903659555dddc0fbdeb9d71f75e52/nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+      "pinned_wheel_sha256": "a7756528852ef889772a84c6cd89d41dfa74667e24cca16bb31f8f061e3e9994",
+      "compressed_archive_bytes": 88040029,
+      "zip_entries_uncompressed_bytes": 222208780,
+      "zip_entries": 14,
+      "range_receipts": [
+        {
+          "start": 88040007,
+          "end": 88040028,
+          "bytes": 22,
+          "sha256": "233cb194d908e5106026d5cee05f00f8d65a3eba84cf3a4cc41aeaee0036705a"
+        },
+        {
+          "start": 88039987,
+          "end": 88040006,
+          "bytes": 20,
+          "sha256": "2b0106abd14436b74075891c4ef67de5aac85afdd9958289b912de265fa3cbb8"
+        },
+        {
+          "start": 88038791,
+          "end": 88040006,
+          "bytes": 1216,
+          "sha256": "2835279ba4687a38a0e5bbe0705189f89c84d296d84f13a47bd44b00b66a029d"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.8.90",
+      "url": "https://files.pythonhosted.org/packages/0d/9b/a997b638fcd068ad6e4d53b8551a7d30fe8b404d6f1804abf1df69838932/nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "adade8dcbd0edf427b7204d480d6066d33902cab2a4707dcfc48a2d0fd44ab90",
+      "compressed_archive_bytes": 954765,
+      "zip_entries_uncompressed_bytes": 4991977,
+      "zip_entries": 105,
+      "range_receipts": [
+        {
+          "start": 954743,
+          "end": 954764,
+          "bytes": 22,
+          "sha256": "9463807cf0ee2bef79a3667d89c33897ecc245e5df4b3e7e803c2067e155502c"
+        },
+        {
+          "start": 954723,
+          "end": 954742,
+          "bytes": 20,
+          "sha256": "57d3b8839114dc4881d3cbe369f979e561effd68af800829ed0a70ee326e7d20"
+        },
+        {
+          "start": 944859,
+          "end": 954742,
+          "bytes": 9884,
+          "sha256": "21440d8483c0c265d3d9922b54e598f15b9c0b88557c626cc23cd3b44fbc2b6f"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.10.2.21",
+      "url": "https://files.pythonhosted.org/packages/ba/51/e123d997aa098c61d029f76663dedbfb9bc8dcf8c60cbd6adbe42f76d049/nvidia_cudnn_cu12-9.10.2.21-py3-none-manylinux_2_27_x86_64.whl",
+      "pinned_wheel_sha256": "949452be657fa16687d0930933f032835951ef0892b37d2d53824d1a84dc97a8",
+      "compressed_archive_bytes": 706758467,
+      "zip_entries_uncompressed_bytes": 1053624755,
+      "zip_entries": 27,
+      "range_receipts": [
+        {
+          "start": 706758445,
+          "end": 706758466,
+          "bytes": 22,
+          "sha256": "4692880645950282922782fd4056271711dde93f61cda7ac5a6d95278e3eb6ef"
+        },
+        {
+          "start": 706758425,
+          "end": 706758444,
+          "bytes": 20,
+          "sha256": "b7ba29375771a82581fccbb52c2401773ae1bc5bfffb0744cc474a9436a0579d"
+        },
+        {
+          "start": 706756167,
+          "end": 706758444,
+          "bytes": 2278,
+          "sha256": "b8b28bb486fb0093d23a39576a1d2a34c885dba4d330f11caee7437b148d0133"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.3.3.83",
+      "url": "https://files.pythonhosted.org/packages/1f/13/ee4e00f30e676b66ae65b4f08cb5bcbb8392c03f54f2d5413ea99a5d1c80/nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "4d2dd21ec0b88cf61b62e6b43564355e5222e4a3fb394cac0db101f2dd0d4f74",
+      "compressed_archive_bytes": 193118695,
+      "zip_entries_uncompressed_bytes": 281139226,
+      "zip_entries": 15,
+      "range_receipts": [
+        {
+          "start": 193118673,
+          "end": 193118694,
+          "bytes": 22,
+          "sha256": "d9d02d74fb96b7817159970bcebff0ec58ef89e82d1c4a6d649e1fbc2a46b212"
+        },
+        {
+          "start": 193118653,
+          "end": 193118672,
+          "bytes": 20,
+          "sha256": "e3230ef5f883451068314675c6fd1256ff951f36098ba3327ace3c069ad045d3"
+        },
+        {
+          "start": 193117466,
+          "end": 193118672,
+          "bytes": 1207,
+          "sha256": "cf94dda3c5e60b8f62aa666c95ffce57561ba40bc9ec909e0a10747dda33d248"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cufile-cu12",
+      "version": "1.13.1.3",
+      "url": "https://files.pythonhosted.org/packages/bb/fe/1bcba1dfbfb8d01be8d93f07bfc502c93fa23afa6fd5ab3fc7c1df71038a/nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "1d069003be650e131b21c932ec3d8969c1715379251f8d23a1860554b1cb24fc",
+      "compressed_archive_bytes": 1197834,
+      "zip_entries_uncompressed_bytes": 3347697,
+      "zip_entries": 12,
+      "range_receipts": [
+        {
+          "start": 1197812,
+          "end": 1197833,
+          "bytes": 22,
+          "sha256": "adb7907bb91c73efdf55de9b88342fec202f41208e8c0b2464e49d76154cf3bc"
+        },
+        {
+          "start": 1197792,
+          "end": 1197811,
+          "bytes": 20,
+          "sha256": "e164ac1265009cf686630c449473a044dbf104edc8680338381db5d3e53a7c3f"
+        },
+        {
+          "start": 1196823,
+          "end": 1197811,
+          "bytes": 989,
+          "sha256": "e06f84bcbdd69509b7e2552ab747384303ba1752cf9b743354aa61cb1b645383"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.9.90",
+      "url": "https://files.pythonhosted.org/packages/fb/aa/6584b56dc84ebe9cf93226a5cde4d99080c8e90ab40f0c27bda7a0f29aa1/nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl",
+      "pinned_wheel_sha256": "b32331d4f4df5d6eefa0554c565b626c7216f87a06a4f56fab27c3b68a830ec9",
+      "compressed_archive_bytes": 63619976,
+      "zip_entries_uncompressed_bytes": 138917483,
+      "zip_entries": 27,
+      "range_receipts": [
+        {
+          "start": 63619954,
+          "end": 63619975,
+          "bytes": 22,
+          "sha256": "184b3fe120b8b4c7efdba9365007c439cf7b6cac364b3b512a7deb06c2a112fb"
+        },
+        {
+          "start": 63619934,
+          "end": 63619953,
+          "bytes": 20,
+          "sha256": "57d3b8839114dc4881d3cbe369f979e561effd68af800829ed0a70ee326e7d20"
+        },
+        {
+          "start": 63617665,
+          "end": 63619953,
+          "bytes": 2289,
+          "sha256": "1a467f83f81adb3ef21f2ae85a78a5cccdb650b1a53791551c68b2bd8be1d5b7"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.7.3.90",
+      "url": "https://files.pythonhosted.org/packages/85/48/9a13d2975803e8cf2777d5ed57b87a0b6ca2cc795f9a4f59796a910bfb80/nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl",
+      "pinned_wheel_sha256": "4376c11ad263152bd50ea295c05370360776f8c3427b30991df774f9fb26c450",
+      "compressed_archive_bytes": 267506905,
+      "zip_entries_uncompressed_bytes": 405119140,
+      "zip_entries": 17,
+      "range_receipts": [
+        {
+          "start": 267506883,
+          "end": 267506904,
+          "bytes": 22,
+          "sha256": "9bdcf55697a8b645bd8dea05ec7aa7ccadb4a511163be0724805fe4289a10896"
+        },
+        {
+          "start": 267506863,
+          "end": 267506882,
+          "bytes": 20,
+          "sha256": "57d3b8839114dc4881d3cbe369f979e561effd68af800829ed0a70ee326e7d20"
+        },
+        {
+          "start": 267505428,
+          "end": 267506882,
+          "bytes": 1455,
+          "sha256": "e7e3cd0b390f73c08adad6b9ad4fe4039d3034260b21378a7338e095cc8dafdf"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.5.8.93",
+      "url": "https://files.pythonhosted.org/packages/c2/f5/e1854cb2f2bcd4280c44736c93550cc300ff4b8c95ebe370d0aa7d2b473d/nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "1ec05d76bbbd8b61b06a80e1eaf8cf4959c3d4ce8e711b65ebd0443bb0ebb13b",
+      "compressed_archive_bytes": 288216466,
+      "zip_entries_uncompressed_bytes": 388351850,
+      "zip_entries": 12,
+      "range_receipts": [
+        {
+          "start": 288216444,
+          "end": 288216465,
+          "bytes": 22,
+          "sha256": "cf9cdc9a2ee61ff419fa3ab1202b2afcf41f976b0c02abef406ea69e9daef9b5"
+        },
+        {
+          "start": 288216424,
+          "end": 288216443,
+          "bytes": 20,
+          "sha256": "2b0106abd14436b74075891c4ef67de5aac85afdd9958289b912de265fa3cbb8"
+        },
+        {
+          "start": 288215425,
+          "end": 288216443,
+          "bytes": 1019,
+          "sha256": "c76866a86ff9474403988fc3b2ec42da6fae75f7d409850f369ff81b8ea3a5f0"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.7.1",
+      "url": "https://files.pythonhosted.org/packages/56/79/12978b96bd44274fe38b5dde5cfb660b1d114f70a65ef962bcbbed99b549/nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl",
+      "pinned_wheel_sha256": "f1bb701d6b930d5a7cea44c19ceb973311500847f81b634d802b7b539dc55623",
+      "compressed_archive_bytes": 287193691,
+      "zip_entries_uncompressed_bytes": 452024081,
+      "zip_entries": 7,
+      "range_receipts": [
+        {
+          "start": 287193669,
+          "end": 287193690,
+          "bytes": 22,
+          "sha256": "e5f8ece8f71b20f57212c238df0c71753fbd2af85c801d18c0c8e175a5acaacc"
+        },
+        {
+          "start": 287193649,
+          "end": 287193668,
+          "bytes": 20,
+          "sha256": "1a383cfa9ced9ece804dbc0aee1705e72f5d775e61fde40b1ff709e5edf28a24"
+        },
+        {
+          "start": 287193052,
+          "end": 287193668,
+          "bytes": 617,
+          "sha256": "8bcfdefaa04d38c3fb14d5f4baec4acedd8b5a9c8d7f3a9e13a21da30ef9a7ad"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.27.5",
+      "url": "https://files.pythonhosted.org/packages/6e/89/f7a07dc961b60645dbbf42e80f2bc85ade7feb9a491b11a1e973aa00071f/nvidia_nccl_cu12-2.27.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "ad730cf15cb5d25fe849c6e6ca9eb5b76db16a80f13f425ac68d8e2e55624457",
+      "compressed_archive_bytes": 322348229,
+      "zip_entries_uncompressed_bytes": 429655582,
+      "zip_entries": 7,
+      "range_receipts": [
+        {
+          "start": 322348207,
+          "end": 322348228,
+          "bytes": 22,
+          "sha256": "f1b83a7ecd2ee2947768447141b5494ee22e02fdf88db34956bc0dcf2c31a8ba"
+        },
+        {
+          "start": 322348187,
+          "end": 322348206,
+          "bytes": 20,
+          "sha256": "e0e1d668d608963a5be9ec99285245c40d6e4897568d6f8a6d688ba1450e44b2"
+        },
+        {
+          "start": 322347609,
+          "end": 322348206,
+          "bytes": 598,
+          "sha256": "d4c58388954ebfb40d7f3f7309e2dc8610f666a84bda56bd2fdea635e90f79f0"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.8.93",
+      "url": "https://files.pythonhosted.org/packages/f6/74/86a07f1d0f42998ca31312f998bd3b9a7eff7f52378f4f270c8679c77fb9/nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl",
+      "pinned_wheel_sha256": "81ff63371a7ebd6e6451970684f916be2eab07321b73c9d244dc2b4da7f73b88",
+      "compressed_archive_bytes": 39254836,
+      "zip_entries_uncompressed_bytes": 94180576,
+      "zip_entries": 11,
+      "range_receipts": [
+        {
+          "start": 39254814,
+          "end": 39254835,
+          "bytes": 22,
+          "sha256": "87db0dd9aafe373a07e1fe0389b0e580681a9c0dbfda60f618d83b063f1603a0"
+        },
+        {
+          "start": 39254794,
+          "end": 39254813,
+          "bytes": 20,
+          "sha256": "2b0106abd14436b74075891c4ef67de5aac85afdd9958289b912de265fa3cbb8"
+        },
+        {
+          "start": 39253876,
+          "end": 39254813,
+          "bytes": 938,
+          "sha256": "536248dbf3a1897e48af108e37338f8a70e53bdfddd62d4d7771394c92306faa"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-nvshmem-cu12",
+      "version": "3.4.5",
+      "url": "https://files.pythonhosted.org/packages/b5/09/6ea3ea725f82e1e76684f0708bbedd871fc96da89945adeba65c3835a64c/nvidia_nvshmem_cu12-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "042f2500f24c021db8a06c5eec2539027d57460e1c1a762055a6554f72c369bd",
+      "compressed_archive_bytes": 139103095,
+      "zip_entries_uncompressed_bytes": 204181279,
+      "zip_entries": 64,
+      "range_receipts": [
+        {
+          "start": 139103073,
+          "end": 139103094,
+          "bytes": 22,
+          "sha256": "2095e12be1c0247015e1e4391b00cf6bfed530366bba18c210510066261f01c1"
+        },
+        {
+          "start": 139103053,
+          "end": 139103072,
+          "bytes": 20,
+          "sha256": "eef8221ee03491e324da70562d93d29d8d32c06b1fb3c76f9b030410e332d604"
+        },
+        {
+          "start": 139096756,
+          "end": 139103072,
+          "bytes": 6317,
+          "sha256": "d8219229affc8afde87ef8172b892d9bac806c3d2a6a1daed8cf686024d107dc"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.8.90",
+      "url": "https://files.pythonhosted.org/packages/a2/eb/86626c1bbc2edb86323022371c39aa48df6fd8b0a1647bc274577f72e90b/nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "5b17e2001cc0d751a5bc2c6ec6d26ad95913324a4adb86788c944f8ce9ba441f",
+      "compressed_archive_bytes": 89954,
+      "zip_entries_uncompressed_bytes": 367247,
+      "zip_entries": 31,
+      "range_receipts": [
+        {
+          "start": 89932,
+          "end": 89953,
+          "bytes": 22,
+          "sha256": "6d7f91c68b0eaa6aef5b1a6e3fd51fc648c317cdb00a1d998a9bd41892eb9862"
+        },
+        {
+          "start": 89912,
+          "end": 89931,
+          "bytes": 20,
+          "sha256": "57d3b8839114dc4881d3cbe369f979e561effd68af800829ed0a70ee326e7d20"
+        },
+        {
+          "start": 87198,
+          "end": 89931,
+          "bytes": 2734,
+          "sha256": "e3445e0f934aa6a2744b7206b21d7127042b09d6ebe5b752697f8e37c139ea39"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "triton",
+      "version": "3.6.0",
+      "url": "https://files.pythonhosted.org/packages/ab/a8/cdf8b3e4c98132f965f88c2313a4b493266832ad47fb52f23d14d4f86bb5/triton-3.6.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "74caf5e34b66d9f3a429af689c1c7128daba1d8208df60e81106b115c00d6fca",
+      "compressed_archive_bytes": 188266850,
+      "zip_entries_uncompressed_bytes": 669050695,
+      "zip_entries": 410,
+      "range_receipts": [
+        {
+          "start": 188266828,
+          "end": 188266849,
+          "bytes": 22,
+          "sha256": "abd84066755aba57a15b94f5b75251f2305fcd64796620d3859d77c2cf23822f"
+        },
+        {
+          "start": 188266808,
+          "end": 188266827,
+          "bytes": 20,
+          "sha256": "c35c7d916229c71991ac190ad17847afa239328feecebdeed79a8a56db4252ef"
+        },
+        {
+          "start": 188230032,
+          "end": 188266827,
+          "bytes": 36796,
+          "sha256": "cab0b189b8963fe5a3a12d1d0e9ed5c57199fe3080ab9d784dcd0ce32a322fd0"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.7.0",
+      "url": "https://files.pythonhosted.org/packages/fd/3c/6a2bf344106328fd04963664a60b9bb6496fc25df8e962fcdc1367285fb9/fsspec-2026.7.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "b57ddbafedfaef7018c1ecab32aa200a9d7ca26b77965f64e48b70061249d279",
+      "compressed_archive_bytes": 206583,
+      "zip_entries_uncompressed_bytes": 752431,
+      "zip_entries": 61,
+      "range_receipts": [
+        {
+          "start": 206561,
+          "end": 206582,
+          "bytes": 22,
+          "sha256": "480cfd0aa0772634a34dc65a34cf4c428b1104ea400d367bff06846bce1518e2"
+        },
+        {
+          "start": 206541,
+          "end": 206560,
+          "bytes": 20,
+          "sha256": "b985b228d067d03a0f9ca177e1f9e27212d8103a90859aef1a4e4b5e25df1a02"
+        },
+        {
+          "start": 202143,
+          "end": 206560,
+          "bytes": 4418,
+          "sha256": "be712698b43b451fb1b8e44fcf7eb213dde914147a977bb13bd940b786482136"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "1.31.0",
+      "url": "https://files.pythonhosted.org/packages/c3/7f/3f886a625043b77312b80da2f2bf00b5ecbf5a73061af1aa0259cd258c9d/huggingface_hub-1.31.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "9dbb6a503cbe2494ea666695207e7262d410659e09134059deb83e5480864667",
+      "compressed_archive_bytes": 798313,
+      "zip_entries_uncompressed_bytes": 3117859,
+      "zip_entries": 192,
+      "range_receipts": [
+        {
+          "start": 798291,
+          "end": 798312,
+          "bytes": 22,
+          "sha256": "bec7598b738d31cbd04bdedfd1b57617ba57057b90df40669639e9bfda859eb8"
+        },
+        {
+          "start": 798271,
+          "end": 798290,
+          "bytes": 20,
+          "sha256": "bfd30af622ed1084f74e47e114f72adb7693ecce3dcc7c089644490d0dd59633"
+        },
+        {
+          "start": 781555,
+          "end": 798290,
+          "bytes": 16736,
+          "sha256": "5a0f43cf2b7dd3caba866884f1d481ace2b48f969865db585f6de87143b07721"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "filelock",
+      "version": "3.32.6",
+      "url": "https://files.pythonhosted.org/packages/cc/06/4f138f618dbea66803291274f228f01daf29f306fe8b96bc30dab765df75/filelock-3.32.6-py3-none-any.whl",
+      "pinned_wheel_sha256": "3f16ecd0117feae0dfc147e8c62eb5daeccd8bd800378c3ddf416de9b4feb6b1",
+      "compressed_archive_bytes": 100189,
+      "zip_entries_uncompressed_bytes": 355590,
+      "zip_entries": 26,
+      "range_receipts": [
+        {
+          "start": 100167,
+          "end": 100188,
+          "bytes": 22,
+          "sha256": "e1215258561481601322f6396ac670b4862059239600b287713d4719be6b122d"
+        },
+        {
+          "start": 100147,
+          "end": 100166,
+          "bytes": 20,
+          "sha256": "8de17103dff5c939d9079b27ffa3f3b93454c64f4ddb3daad2dd527a00433be1"
+        },
+        {
+          "start": 98374,
+          "end": 100166,
+          "bytes": 1793,
+          "sha256": "740b03fa23b432c9cd12ac21ef273ec4dafbfa7759105ad89be0ae20976500ea"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "networkx",
+      "version": "3.6.1",
+      "url": "https://files.pythonhosted.org/packages/9e/c9/b2622292ea83fbb4ec318f5b9ab867d0a28ab43c5717bb85b0a5f6b3b0a4/networkx-3.6.1-py3-none-any.whl",
+      "pinned_wheel_sha256": "d47fbf302e7d9cbbb9e2555a0d267983d2aa476bac30e90dfbe5669bd57f3762",
+      "compressed_archive_bytes": 2068504,
+      "zip_entries_uncompressed_bytes": 7038619,
+      "zip_entries": 601,
+      "range_receipts": [
+        {
+          "start": 2068482,
+          "end": 2068503,
+          "bytes": 22,
+          "sha256": "730ac23ac8bb214e1bf63293579646fb52ee9acc61cc14217e1eb158f29cf45c"
+        },
+        {
+          "start": 2068462,
+          "end": 2068481,
+          "bytes": 20,
+          "sha256": "7720e2cae4bc0f26990191e09d8504ceb62a57dffed38212677661cd672c4197"
+        },
+        {
+          "start": 2015001,
+          "end": 2068481,
+          "bytes": 53481,
+          "sha256": "cc561d1289e7359faabd1ed85c39ebfd23163e7832684c744b0632346b65362f"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3",
+      "url": "https://files.pythonhosted.org/packages/65/af/aa78d1a88805456e212b65461354cd943197fb9acecc4c90fd12295123a3/numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "b7e18c623bb5c95acb3b3328861272816ba199fb531921c5d6d0b675f1fde9e3",
+      "compressed_archive_bytes": 16717410,
+      "zip_entries_uncompressed_bytes": 56365091,
+      "zip_entries": 1044,
+      "range_receipts": [
+        {
+          "start": 16717388,
+          "end": 16717409,
+          "bytes": 22,
+          "sha256": "d80c178ebbd47dd13c6b8f5249ea8c446fc0878617f26237796cfa47453b0bce"
+        },
+        {
+          "start": 16717368,
+          "end": 16717387,
+          "bytes": 20,
+          "sha256": "7d8fbfdfb6acc14fe3a9dd8396afa518fb6eaf0ce4fb793f8ecac3e594ab5d5e"
+        },
+        {
+          "start": 16632692,
+          "end": 16717387,
+          "bytes": 84696,
+          "sha256": "40c7771ff50161301cb5ecca3ae718aa93e675c240339357326faad1e863c7fe"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "url": "https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl",
+      "pinned_wheel_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+      "compressed_archive_bytes": 129956,
+      "zip_entries_uncompressed_bytes": 499179,
+      "zip_entries": 29,
+      "range_receipts": [
+        {
+          "start": 129934,
+          "end": 129955,
+          "bytes": 22,
+          "sha256": "d18e049ea2581510cddfdd945eb3022e8785684cbc83b4f4c2344c82bb9293ad"
+        },
+        {
+          "start": 129914,
+          "end": 129933,
+          "bytes": 20,
+          "sha256": "1bedba32697151422df9ab508a4bce39af5daf84053f0ad6aa5ac5a21e086882"
+        },
+        {
+          "start": 127868,
+          "end": 129933,
+          "bytes": 2066,
+          "sha256": "0a65b46d19675a6c54bdcffb5a0f27eaea99a779eb5e766aa27293255f21e3ca"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "url": "https://files.pythonhosted.org/packages/8b/9d/b3589d3877982d4f2329302ef98a8026e7f4443c765c46cfecc8858c6b4b/pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "ba1cc08a7ccde2d2ec775841541641e4548226580ab850948cbfda66a1befcdc",
+      "compressed_archive_bytes": 807870,
+      "zip_entries_uncompressed_bytes": 2903648,
+      "zip_entries": 28,
+      "range_receipts": [
+        {
+          "start": 807848,
+          "end": 807869,
+          "bytes": 22,
+          "sha256": "16300f5dd03f0747ae152cab51ef0c5c4366763a94222b3eab3530f2b1c7ed49"
+        },
+        {
+          "start": 807828,
+          "end": 807847,
+          "bytes": 20,
+          "sha256": "c35c7d916229c71991ac190ad17847afa239328feecebdeed79a8a56db4252ef"
+        },
+        {
+          "start": 806015,
+          "end": 807847,
+          "bytes": 1833,
+          "sha256": "6a60d39fc54aca3413b0fef72a34559aad17c45b95ed008d5e70d6e3844d33c3"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.10",
+      "url": "https://files.pythonhosted.org/packages/cb/f5/dcdf5e0d898024005cfcce631e3e934d111dfbe177ca0b7f253ae8a735a2/regex-2026.9.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "2e67f8843f0e4b931f1fa860bf3bbe4134b714c0155cc5c7c0d7ea450230aae0",
+      "compressed_archive_bytes": 804587,
+      "zip_entries_uncompressed_bytes": 3041237,
+      "zip_entries": 14,
+      "range_receipts": [
+        {
+          "start": 804565,
+          "end": 804586,
+          "bytes": 22,
+          "sha256": "804008b531a12379b5e3925fc20af75cd3eab4c7bc3e46a0852505d328241091"
+        },
+        {
+          "start": 804545,
+          "end": 804564,
+          "bytes": 20,
+          "sha256": "48757dce483c6762cca4ffeb37acc5f194ad52ef12bacf2279064a2c9c3b34fa"
+        },
+        {
+          "start": 803540,
+          "end": 804564,
+          "bytes": 1025,
+          "sha256": "354ddd2b4bb075937e3688b17f36d0a7be5e3cd44d2b9f3749e81178c5f8c1e5"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "url": "https://files.pythonhosted.org/packages/28/50/f203ff3a3ddfe19308efc83c5a3a29ed02bf786732ec35e68bf9162f3365/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "pinned_wheel_sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+      "compressed_archive_bytes": 516040,
+      "zip_entries_uncompressed_bytes": 1337729,
+      "zip_entries": 15,
+      "range_receipts": [
+        {
+          "start": 516018,
+          "end": 516039,
+          "bytes": 22,
+          "sha256": "b22433028bb5b1b4977e53b59cad8e9ffa0840d47e99b06a7b4d5ea0b9d90b4c"
+        },
+        {
+          "start": 515998,
+          "end": 516017,
+          "bytes": 20,
+          "sha256": "66dc39e1801da37e9e6c0f2d75ec72f937eee4b799a582d56afa5e3da9824c28"
+        },
+        {
+          "start": 514887,
+          "end": 516017,
+          "bytes": 1131,
+          "sha256": "906defe5085e4b1156561ad897dbf652138be6a3676882dfae584141ca022a87"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "url": "https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "e091cc3e99d2141a0ba2847328f5479b05d94a6635cb96148ccb3f34671bd8f5",
+      "compressed_archive_bytes": 6299353,
+      "zip_entries_uncompressed_bytes": 26841861,
+      "zip_entries": 1570,
+      "range_receipts": [
+        {
+          "start": 6299331,
+          "end": 6299352,
+          "bytes": 22,
+          "sha256": "9b1b6a4b480b34b7a7580808ee54b219b56d0c857f23131e185fb2e681b60d95"
+        },
+        {
+          "start": 6299311,
+          "end": 6299330,
+          "bytes": 20,
+          "sha256": "50d64c4d41dca57887b4532688e4ba2d9639a4e13f8b316ae9b2afce22217e20"
+        },
+        {
+          "start": 6171410,
+          "end": 6299330,
+          "bytes": 127921,
+          "sha256": "3cff05aa980aa5c241739ec3ce622d4c08a7393a8202c7fbccdc87aa2c47a040"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.22.2",
+      "url": "https://files.pythonhosted.org/packages/2e/76/932be4b50ef6ccedf9d3c6639b056a967a86258c6d9200643f01269211ca/tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "pinned_wheel_sha256": "369cc9fc8cc10cb24143873a0d95438bb8ee257bb80c71989e3ee290e8d72c67",
+      "compressed_archive_bytes": 3274982,
+      "zip_entries_uncompressed_bytes": 10322045,
+      "zip_entries": 29,
+      "range_receipts": [
+        {
+          "start": 3274960,
+          "end": 3274981,
+          "bytes": 22,
+          "sha256": "7efca6d8632f818eb6bc791b063387809298e03660478c5b0f77819f4ec92ad0"
+        },
+        {
+          "start": 3274940,
+          "end": 3274959,
+          "bytes": 20,
+          "sha256": "f21bfff9cab018cd2621103b99b84d9e338a5fc010dbcd36b2a2c617ec8a41fd"
+        },
+        {
+          "start": 3272620,
+          "end": 3274959,
+          "bytes": 2340,
+          "sha256": "61e7e170ac120affe50ffae667f4b1d29548c33745515e3f38af33c4a263f18d"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "url": "https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl",
+      "pinned_wheel_sha256": "c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73",
+      "compressed_archive_bytes": 80199,
+      "zip_entries_uncompressed_bytes": 233479,
+      "zip_entries": 39,
+      "range_receipts": [
+        {
+          "start": 80177,
+          "end": 80198,
+          "bytes": 22,
+          "sha256": "6e60618a330e2701c6523a54fef81bd17505cada95c85d1a3f68feb14e1f58f8"
+        },
+        {
+          "start": 80157,
+          "end": 80176,
+          "bytes": 20,
+          "sha256": "915be3e6e500dd27663c68b218c0095944d4ea7d07ed2d76e1e6330ecc34e9d1"
+        },
+        {
+          "start": 77625,
+          "end": 80176,
+          "bytes": 2552,
+          "sha256": "5fcbb4d0424933208288bb667daacebed99f8d7b9fba29f06520d70d4a530adb"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "url": "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8",
+      "compressed_archive_bytes": 45571,
+      "zip_entries_uncompressed_bytes": 182767,
+      "zip_entries": 5,
+      "range_receipts": [
+        {
+          "start": 45549,
+          "end": 45570,
+          "bytes": 22,
+          "sha256": "98dcf8e87bc2494608df1c2b37350971ec708d80bbef77c9466a5e1da27c7587"
+        },
+        {
+          "start": 45529,
+          "end": 45548,
+          "bytes": 20,
+          "sha256": "bb1391961af00255630b617b35085d3eb68614d832bf36eb4449911442d39849"
+        },
+        {
+          "start": 45124,
+          "end": 45548,
+          "bytes": 425,
+          "sha256": "46b4d3cd2ffb73ba9ef6bddc4968fc740324b08f720b368ef673b4fd122a500c"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "url": "https://files.pythonhosted.org/packages/62/a1/3d680cbfd5f4b8f15abc1d571870c5fc3e594bb582bc3b64ea099db13e56/jinja2-3.1.6-py3-none-any.whl",
+      "pinned_wheel_sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "compressed_archive_bytes": 134899,
+      "zip_entries_uncompressed_bytes": 496892,
+      "zip_entries": 31,
+      "range_receipts": [
+        {
+          "start": 134877,
+          "end": 134898,
+          "bytes": 22,
+          "sha256": "bda6ba54d98aa194656dde5156efc58e4f5d777b0db196e1e6948054258a967d"
+        },
+        {
+          "start": 134857,
+          "end": 134876,
+          "bytes": 20,
+          "sha256": "f26f18636b0be39f0013e76cef891f24005c31feff5fc743322235ebdea101a6"
+        },
+        {
+          "start": 132830,
+          "end": 134876,
+          "bytes": 2047,
+          "sha256": "9b99fd475b8c5ff0c445b2d274bb061216cae500ec83d32ca26f8d8449a240f7"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "url": "https://files.pythonhosted.org/packages/b5/70/5d8df3b09e25bce090399cf48e452d25c935ab72dad19406c77f4e828045/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "076a2d2f923fd4821644f5ba89f059523da90dc9014e85f8e45a5774ca5bc6f9",
+      "compressed_archive_bytes": 155560,
+      "zip_entries_uncompressed_bytes": 520630,
+      "zip_entries": 18,
+      "range_receipts": [
+        {
+          "start": 155538,
+          "end": 155559,
+          "bytes": 22,
+          "sha256": "a6bf8ee4cb181596fbf9a62a405adee4a7abff91638561d269629370fba5934d"
+        },
+        {
+          "start": 155518,
+          "end": 155537,
+          "bytes": 20,
+          "sha256": "f21bfff9cab018cd2621103b99b84d9e338a5fc010dbcd36b2a2c617ec8a41fd"
+        },
+        {
+          "start": 154323,
+          "end": 155537,
+          "bytes": 1215,
+          "sha256": "569fa431369c4dd58318cb8d26e5cb7032d619b9547ae466f11a56ec2c318436"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "setuptools",
+      "version": "84.0.0",
+      "url": "https://files.pythonhosted.org/packages/95/9c/c510029fc6ef33a6275cd2c5d3cecd6613dfd6aa401d57c54f1c18852ccf/setuptools-84.0.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "51a52592b3b99e102b609654876bd65f19f999935166d1352678931132b0c670",
+      "compressed_archive_bytes": 818216,
+      "zip_entries_uncompressed_bytes": 2773629,
+      "zip_entries": 343,
+      "range_receipts": [
+        {
+          "start": 818194,
+          "end": 818215,
+          "bytes": 22,
+          "sha256": "42c1e3884f7afd33d7c6f6e1571ed5447d8afc4bb418d72b9fb7eef432a75940"
+        },
+        {
+          "start": 818174,
+          "end": 818193,
+          "bytes": 20,
+          "sha256": "96e74699ed48df2f54ba63d474f40160378f745f4855f74924b39659767e39f0"
+        },
+        {
+          "start": 788250,
+          "end": 818193,
+          "bytes": 29944,
+          "sha256": "c0b4acb629754ea6dc54933d5bb03b3ce5feb301855781e8db9033866cb1b681"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "typer",
+      "version": "0.27.2",
+      "url": "https://files.pythonhosted.org/packages/dc/bf/205d0004930ede8f542fb58f601526fccf4ae7626075ca1e6c4de5d3d652/typer-0.27.2-py3-none-any.whl",
+      "pinned_wheel_sha256": "b3a5fc4342d5fc8fda8fc3010b1cf117e9249aab7fae800c2eff62fd3842d97d",
+      "compressed_archive_bytes": 123130,
+      "zip_entries_uncompressed_bytes": 487143,
+      "zip_entries": 41,
+      "range_receipts": [
+        {
+          "start": 123108,
+          "end": 123129,
+          "bytes": 22,
+          "sha256": "4a8a3aa40b1d6650a562e5f90b39c0a55f1bf820fa1a23eadee65bc0e525aacf"
+        },
+        {
+          "start": 123088,
+          "end": 123107,
+          "bytes": 20,
+          "sha256": "ac3ed22011bc3d8f14a14f2ce2b9afe878c20f658f215cdc6a087f642da893b8"
+        },
+        {
+          "start": 120306,
+          "end": 123107,
+          "bytes": 2802,
+          "sha256": "a063ead504048ced1cba92a346ec81f924cb8e77976ed9ceefe47c1f4c81a92c"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "url": "https://files.pythonhosted.org/packages/3e/30/e900b21425a860e195f32e37657aa1f7c7f2b1bfb26f03ca209b90933c06/annotated_doc-0.0.5-py3-none-any.whl",
+      "pinned_wheel_sha256": "117bac03a25ede5df5440e855b32d556049ca169ead221505badf432fed4b101",
+      "compressed_archive_bytes": 5302,
+      "zip_entries_uncompressed_bytes": 9515,
+      "zip_entries": 8,
+      "range_receipts": [
+        {
+          "start": 5280,
+          "end": 5301,
+          "bytes": 22,
+          "sha256": "1285bcb89a93f42c3df4b0f5ddcbda6e7900a568f44c4b571dd759660dc956ce"
+        },
+        {
+          "start": 5260,
+          "end": 5279,
+          "bytes": 20,
+          "sha256": "e7ab83ace735a64ba6a7bae299c4e9790ee05f457bb288d0cc54e666589966e0"
+        },
+        {
+          "start": 4643,
+          "end": 5279,
+          "bytes": 637,
+          "sha256": "947168c3b448269a9fdc2fa30b025f64d7ee5b09a61849933df87d0f66fe6088"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "url": "https://files.pythonhosted.org/packages/58/50/6c0d534c5f134586a8e1ba4e330569e32f057e33372ae556463212fb4cd3/click-8.5.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "255bc9599cf7748b4b1a446ccc735421bd08a2ae529a8b88597d3de5664ee360",
+      "compressed_archive_bytes": 125251,
+      "zip_entries_uncompressed_bytes": 447719,
+      "zip_entries": 22,
+      "range_receipts": [
+        {
+          "start": 125229,
+          "end": 125250,
+          "bytes": 22,
+          "sha256": "d41ff3f62fe936ea33dba04c2dc5ce9d626fab3975ddf2d7202131778ccaa2bd"
+        },
+        {
+          "start": 125209,
+          "end": 125228,
+          "bytes": 20,
+          "sha256": "8ae2830e20747e0a25f2dbb9a5ca85b1c0961a0cd92dc4f42f70175c7ade3886"
+        },
+        {
+          "start": 123784,
+          "end": 125228,
+          "bytes": 1445,
+          "sha256": "81750b21cea33808e0e48c949f2e46d91f846a0748519321e2c550de9125f72e"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "cuda-pathfinder",
+      "version": "1.8.1",
+      "url": "https://files.pythonhosted.org/packages/9d/e6/22df83f82f9bc26cb1c42265cf14d34d4908dba2a0f261bd7b28244acb00/cuda_pathfinder-1.8.1-py3-none-any.whl",
+      "pinned_wheel_sha256": "ae0137ff9e56ea97499bcbf54f5f2778ec25f3266715ac86da192a795af982a8",
+      "compressed_archive_bytes": 62552,
+      "zip_entries_uncompressed_bytes": 187822,
+      "zip_entries": 39,
+      "range_receipts": [
+        {
+          "start": 62530,
+          "end": 62551,
+          "bytes": 22,
+          "sha256": "2012dd11bf5e47b73883384151273ead811c11c786e186ca0a1796c6fc61d3d0"
+        },
+        {
+          "start": 62510,
+          "end": 62529,
+          "bytes": 20,
+          "sha256": "938d3d52ea76cb6e4f916cc8059d14716cb0394ba7bd8ba1a81a50263940d497"
+        },
+        {
+          "start": 59009,
+          "end": 62529,
+          "bytes": 3521,
+          "sha256": "0c951c5446a5c4c80ad9cc240d25d06297cc065269af16faf2f05604cbdaa94b"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.6.0",
+      "url": "https://files.pythonhosted.org/packages/67/4e/a28359bf1c1ecf11eba22123168c138698f7cb576ac678f5a2e16cd5da08/hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+      "pinned_wheel_sha256": "d62671bb130879cef0ee4c9ebe47a14af6c66ec53e6d84dc15936e5ffdfac82f",
+      "compressed_archive_bytes": 4464663,
+      "zip_entries_uncompressed_bytes": 12508898,
+      "zip_entries": 7,
+      "range_receipts": [
+        {
+          "start": 4464641,
+          "end": 4464662,
+          "bytes": 22,
+          "sha256": "3df6416a756032fd85a1e4c90b159bb4c09e4f8cf794700d785ff52eaee8acd5"
+        },
+        {
+          "start": 4464621,
+          "end": 4464640,
+          "bytes": 20,
+          "sha256": "bb1391961af00255630b617b35085d3eb68614d832bf36eb4449911442d39849"
+        },
+        {
+          "start": 4464103,
+          "end": 4464640,
+          "bytes": 538,
+          "sha256": "bf83242d4ae504bc5df66470926d6ed5f91128c5dc86bec9ecd943934dc4997f"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "url": "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl",
+      "pinned_wheel_sha256": "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad",
+      "compressed_archive_bytes": 73517,
+      "zip_entries_uncompressed_bytes": 295303,
+      "zip_entries": 29,
+      "range_receipts": [
+        {
+          "start": 73495,
+          "end": 73516,
+          "bytes": 22,
+          "sha256": "5c1b8f4f20a0cc111319bd4bbb1546c4a7ffe596d701ce98ca481b011ab6e088"
+        },
+        {
+          "start": 73475,
+          "end": 73494,
+          "bytes": 20,
+          "sha256": "938d3d52ea76cb6e4f916cc8059d14716cb0394ba7bd8ba1a81a50263940d497"
+        },
+        {
+          "start": 71537,
+          "end": 73494,
+          "bytes": 1958,
+          "sha256": "056025738406ac05bb6a3a0f5e9cb4be606f720083e35cac8b62657318c90d1c"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "url": "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl",
+      "pinned_wheel_sha256": "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55",
+      "compressed_archive_bytes": 78784,
+      "zip_entries_uncompressed_bytes": 288016,
+      "zip_entries": 36,
+      "range_receipts": [
+        {
+          "start": 78762,
+          "end": 78783,
+          "bytes": 22,
+          "sha256": "b9430a42c9f6cd812994ac0fbadcf0a15905f5af84179ef57c255a8cec4b4f70"
+        },
+        {
+          "start": 78742,
+          "end": 78761,
+          "bytes": 20,
+          "sha256": "45de1de43d0b0ab7419bb15597e49cfe1fd0c1fb8ab9c18d6372895ed91aff1d"
+        },
+        {
+          "start": 76160,
+          "end": 78761,
+          "bytes": 2602,
+          "sha256": "f78d2b621707821bc528371eb19630c85f110319992490cc3542f50ec0b7f002"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "url": "https://files.pythonhosted.org/packages/3c/2e/8d0c2ab90a8c1d9a24f0399058ab8519a3279d1bd4289511d74e909f060e/markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+      "pinned_wheel_sha256": "d6dd0be5b5b189d31db7cda48b91d7e0a9795f31430b7f271219ab30f1d3ac9d",
+      "compressed_archive_bytes": 22947,
+      "zip_entries_uncompressed_bytes": 67188,
+      "zip_entries": 14,
+      "range_receipts": [
+        {
+          "start": 22925,
+          "end": 22946,
+          "bytes": 22,
+          "sha256": "91b618abf6775d23e39049220e908c643f5a12c5a7f7a1b748684333b33672f1"
+        },
+        {
+          "start": 22905,
+          "end": 22924,
+          "bytes": 20,
+          "sha256": "48757dce483c6762cca4ffeb37acc5f194ad52ef12bacf2279064a2c9c3b34fa"
+        },
+        {
+          "start": 21860,
+          "end": 22924,
+          "bytes": 1065,
+          "sha256": "d05db04ed0929adc5e7073963ecc3cfc9ceda671fe713f29c90a312be6c344fc"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "url": "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c",
+      "compressed_archive_bytes": 536198,
+      "zip_entries_uncompressed_bytes": 1950197,
+      "zip_entries": 92,
+      "range_receipts": [
+        {
+          "start": 536176,
+          "end": 536197,
+          "bytes": 22,
+          "sha256": "a6835f4df81fe77642715694b1c77905b8f26062a5872b4d7fddc29395131d95"
+        },
+        {
+          "start": 536156,
+          "end": 536175,
+          "bytes": 20,
+          "sha256": "67f8e0a955639fe49162ae455b9a08c99b2efe8ea2d0ea3108f34bc93d4bf557"
+        },
+        {
+          "start": 529483,
+          "end": 536175,
+          "bytes": 6693,
+          "sha256": "888f163d0cfd039ec643cfd8ccc060b4f2d5b0896f1aa91c73161bd023b9cc54"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "url": "https://files.pythonhosted.org/packages/82/3b/64d4899d73f91ba49a8c18a8ff3f0ea8f1c1d75481760df8c68ef5235bf5/rich-15.0.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "33bd4ef74232fb73fe9279a257718407f169c09b78a87ad3d296f548e27de0bb",
+      "compressed_archive_bytes": 310654,
+      "zip_entries_uncompressed_bytes": 1245816,
+      "zip_entries": 105,
+      "range_receipts": [
+        {
+          "start": 310632,
+          "end": 310653,
+          "bytes": 22,
+          "sha256": "731eb96e619f4af66717abeffb0ce44db156940d63f5ffd963c50d0afc662999"
+        },
+        {
+          "start": 310612,
+          "end": 310631,
+          "bytes": 20,
+          "sha256": "96e74699ed48df2f54ba63d474f40160378f745f4855f74924b39659767e39f0"
+        },
+        {
+          "start": 303697,
+          "end": 310631,
+          "bytes": 6935,
+          "sha256": "01c4bb73b8382ce26c67993e4cdb86f25333f712257ad1b6c9c7d582171a5712"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4",
+      "url": "https://files.pythonhosted.org/packages/e0/f9/0595336914c5619e5f28a1fb793285925a8cd4b432c9da0a987836c7f822/shellingham-1.5.4-py2.py3-none-any.whl",
+      "pinned_wheel_sha256": "7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686",
+      "compressed_archive_bytes": 9755,
+      "zip_entries_uncompressed_bytes": 18479,
+      "zip_entries": 13,
+      "range_receipts": [
+        {
+          "start": 9733,
+          "end": 9754,
+          "bytes": 22,
+          "sha256": "7f01f8708b60558926c387f0cf65f94303ed3c3187f0c11c8c12e7e7369e0251"
+        },
+        {
+          "start": 9713,
+          "end": 9732,
+          "bytes": 20,
+          "sha256": "4fe41064fba6222bf8b331d0f8d3064368215f646cda9a3299d2b57416673c31"
+        },
+        {
+          "start": 8757,
+          "end": 9732,
+          "bytes": 976,
+          "sha256": "3215f71c0c127a85ab4e2f0e01a9f1f38d4b8cce3c21174725be40050ca5c1a0"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "url": "https://files.pythonhosted.org/packages/b3/81/4da04ced5a082363ecfa159c010d200ecbd959ae410c10c0264a38cac0f5/markdown_it_py-4.2.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "9f7ebbcd14fe59494226453aed97c1070d83f8d24b6fc3a3bcf9a38092641c4a",
+      "compressed_archive_bytes": 91687,
+      "zip_entries_uncompressed_bytes": 244684,
+      "zip_entries": 74,
+      "range_receipts": [
+        {
+          "start": 91665,
+          "end": 91686,
+          "bytes": 22,
+          "sha256": "cdb3a31d01114866f0426489690b09cb3dd60710d4fcbe522f7613a93f0825c8"
+        },
+        {
+          "start": 91645,
+          "end": 91664,
+          "bytes": 20,
+          "sha256": "3bffeebfe3ad45285657f6e66ff0a8730087b957b15b2b43e1841149f830ca88"
+        },
+        {
+          "start": 85837,
+          "end": 91664,
+          "bytes": 5828,
+          "sha256": "4ebbd698436502b7de23202b7cdcb21131c59ffc0ff56d5f02d67722324cdc65"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0",
+      "url": "https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "2363c69b61c4a97c838da3b130dcd6468f4848992b21a82f2a63ec34377137d9",
+      "compressed_archive_bytes": 1250147,
+      "zip_entries_uncompressed_bytes": 4621166,
+      "zip_entries": 349,
+      "range_receipts": [
+        {
+          "start": 1250125,
+          "end": 1250146,
+          "bytes": 22,
+          "sha256": "724aebd01b084ba697aa82597a433a30cc5af3c7aa5d1b985af35d3613adb05a"
+        },
+        {
+          "start": 1250105,
+          "end": 1250124,
+          "bytes": 20,
+          "sha256": "bfd30af622ed1084f74e47e114f72adb7693ecce3dcc7c089644490d0dd59633"
+        },
+        {
+          "start": 1225103,
+          "end": 1250124,
+          "bytes": 25022,
+          "sha256": "ccfcb5181a4161be2fd778ea1e647333eab36eeb0cc6c0d67ab8e9a0996eec4e"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "url": "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl",
+      "pinned_wheel_sha256": "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101",
+      "compressed_archive_bytes": 132079,
+      "zip_entries_uncompressed_bytes": 539217,
+      "zip_entries": 53,
+      "range_receipts": [
+        {
+          "start": 132057,
+          "end": 132078,
+          "bytes": 22,
+          "sha256": "4e44bcc3097b4b55b74a32f45d3c7204ae4e88404f17d11028cf91e36871c87a"
+        },
+        {
+          "start": 132037,
+          "end": 132056,
+          "bytes": 20,
+          "sha256": "8e02c0084faf0569cdb1f3cecd8e6ed074f8d1b8ade6ff4b411362ec71b3b663"
+        },
+        {
+          "start": 128331,
+          "end": 132056,
+          "bytes": 3726,
+          "sha256": "9e4b5e867e8d55b2981fc4918ba5b71901fa4694233160d836d72ac82a8e4d3c"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "idna",
+      "version": "3.19",
+      "url": "https://files.pythonhosted.org/packages/57/b0/0e52c878c53f245edd3a11020f20979b3f490f245af532c7cae3027754b5/idna-3.19-py3-none-any.whl",
+      "pinned_wheel_sha256": "815e7be7a7806d54abb586dc943addc79e8b2ee16915059658cbeff4b1b43bf4",
+      "compressed_archive_bytes": 68550,
+      "zip_entries_uncompressed_bytes": 337228,
+      "zip_entries": 16,
+      "range_receipts": [
+        {
+          "start": 68528,
+          "end": 68549,
+          "bytes": 22,
+          "sha256": "09302c5cfe9dd36b1ca2c07bb683353d85c0ac1f292de9967fe8246d8e00456b"
+        },
+        {
+          "start": 68508,
+          "end": 68527,
+          "bytes": 20,
+          "sha256": "8bbd7e9058bd871421c1e646c2df97b6fde3438d75513a591d0cd99c8f44cd21"
+        },
+        {
+          "start": 67473,
+          "end": 68527,
+          "bytes": 1055,
+          "sha256": "7baeb0442a19e10c455de6ef1d5626be470a6f8b16ebe59e03f7c1a5fc6934ca"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "url": "https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl",
+      "pinned_wheel_sha256": "62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775",
+      "compressed_archive_bytes": 136983,
+      "zip_entries_uncompressed_bytes": 248921,
+      "zip_entries": 12,
+      "range_receipts": [
+        {
+          "start": 136961,
+          "end": 136982,
+          "bytes": 22,
+          "sha256": "82d2df873276aaac1b3d1275623c3ff9b0b26b97a3de7f7a34483b807fb57c82"
+        },
+        {
+          "start": 136941,
+          "end": 136960,
+          "bytes": 20,
+          "sha256": "31b1319e4d8f94766efc23eb668ea0996b60fefb8dbdff84905a710b734a794f"
+        },
+        {
+          "start": 136080,
+          "end": 136960,
+          "bytes": 881,
+          "sha256": "7868d6919d71d93dcfbc9efc3afb1419702e0056ecf1c7fac4be63a4b94904a9"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "url": "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl",
+      "pinned_wheel_sha256": "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86",
+      "compressed_archive_bytes": 37515,
+      "zip_entries_uncompressed_bytes": 103935,
+      "zip_entries": 17,
+      "range_receipts": [
+        {
+          "start": 37493,
+          "end": 37514,
+          "bytes": 22,
+          "sha256": "2fcf8b9918ad558ec09d07f4719150546b1ad63ea08177e131933f8d7cd42c2f"
+        },
+        {
+          "start": 37473,
+          "end": 37492,
+          "bytes": 20,
+          "sha256": "bb1391961af00255630b617b35085d3eb68614d832bf36eb4449911442d39849"
+        },
+        {
+          "start": 36377,
+          "end": 37492,
+          "bytes": 1116,
+          "sha256": "6690ecaacca3e2bac68d820663b10cbee48dd1a1e31a5ae816e30e24500874e8"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "url": "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+      "pinned_wheel_sha256": "84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8",
+      "compressed_archive_bytes": 9979,
+      "zip_entries_uncompressed_bytes": 23308,
+      "zip_entries": 11,
+      "range_receipts": [
+        {
+          "start": 9957,
+          "end": 9978,
+          "bytes": 22,
+          "sha256": "dc1fbeef59bdb7fcb84be6a13b3735138e1169394e4a7ba9e5811e511186aa11"
+        },
+        {
+          "start": 9937,
+          "end": 9956,
+          "bytes": 20,
+          "sha256": "9bfc76ff4303ff91958108c0caad523b872c1211287d12a5af37e8d2653b72f8"
+        },
+        {
+          "start": 9230,
+          "end": 9956,
+          "bytes": 727,
+          "sha256": "1d36c68fc622c108cec24084ea8adffc66a99e796c9c61a0e554cfecb9735b1a"
+        }
+      ],
+      "full_wheel_hash_verified_here": false
+    }
+  ],
+  "packages_installed": false,
+  "models_loaded": false
+}

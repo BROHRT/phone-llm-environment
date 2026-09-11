@@ -2,6 +2,7 @@
 No Runpod calls, model weights, experiment payload, approval or launch capability.
 """
 import argparse,hashlib,json,pathlib,re,shutil,subprocess,time,uuid
+import build_process
 P=pathlib.Path(__file__).resolve().parent
 
 def main():
@@ -13,8 +14,8 @@ def main():
  counter=0
  def run(args,timeout=120,check=True):
   nonlocal counter
-  counter+=1;started=time.time();q=subprocess.run([docker,*args],capture_output=True,text=True,timeout=timeout)
-  (out/('%02d-command.json'%counter)).write_text(json.dumps({'argv':[docker,*args],'started_unix':started,'finished_unix':time.time(),'exit_code':q.returncode,'stdout':q.stdout,'stderr':q.stderr},indent=2)+'\n')
+  counter+=1;started=time.time();policy=json.loads((P/'storage-calculation.json').read_text());q=build_process.run([docker,*args],out/('%02d-stream'%counter),timeout,P,policy['stop_free_bytes'])
+  (out/('%02d-command.json'%counter)).write_text(json.dumps({'argv':[docker,*args],'started_unix':started,'finished_unix':time.time(),'exit_code':q.returncode,'stdout':q.stdout,'stderr':q.stderr,'failure_classification':q.failure_classification,'stdout_file':q.stdout_file,'stderr_file':q.stderr_file,'stdout_bytes':q.stdout_bytes,'stderr_bytes':q.stderr_bytes},indent=2)+'\n')
   if check and q.returncode:raise RuntimeError('Docker command failed; preserved command'+str(counter))
   return q
  info=json.loads(run(['info','--format','{{json .}}']).stdout)
@@ -23,6 +24,7 @@ def main():
  run(['pull','--platform','linux/amd64',base],1800)
  run(['build','--platform','linux/amd64','--network=default','--progress=plain','--tag',a.tag,str(P/'image')],10800)
  def inspect(ref):return json.loads(run(['image','inspect',ref]).stdout)[0]
+ run(['builder','prune','--all','--force'],120)
  before=inspect(base);built=inspect(a.tag)
  for key in ('Entrypoint','Cmd','WorkingDir','Env','User'):
   if before['Config'].get(key)!=built['Config'].get(key):raise RuntimeError('inherited base configuration changed: '+key)

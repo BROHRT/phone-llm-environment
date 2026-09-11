@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "is_estimate_not_measured_peak": true,
+  "supersedes_unmeasured_minimum_gib": 55,
+  "authorization": "PM Option 2: derive admission from itemised storage calculation, reclaim disposable toolchains, monitor execution; no timeout-only pip run",
+  "base_image": "runpod/base@sha256:9e8910f574d37264ab4662616466d50c46f19f6b700389c35f00323a1d65e170",
+  "base_manifest_compressed_bytes": 6647490280,
+  "wheel_metadata_sha256": "99516b96ecd0168f81e591cb95f159f6e6e6d282b5fea48de9cf1a4fb5719cf5",
+  "items": [
+    {
+      "name": "base_image_expanded",
+      "bytes": 16618725700,
+      "gib": 15.47739440575242,
+      "basis": "Pinned OCI manifest compressed bytes x estimated expansion factor 2.5; actual expanded size is unmeasured"
+    },
+    {
+      "name": "installed_dependencies",
+      "bytes": 8052172974,
+      "gib": 7.4991704653948545,
+      "basis": "Measured wheel ZIP uncompressed entries x 1.10; 10% allowance for bytecode, venv and installation metadata"
+    },
+    {
+      "name": "build_cache_transient_duplicate",
+      "bytes": 8052172974,
+      "gib": 7.4991704653948545,
+      "basis": "One additional full dependency-layer footprint allowed during build/commit; base layers shared in classic Docker store"
+    },
+    {
+      "name": "temporary_wheel_files",
+      "bytes": 4170136781,
+      "gib": 3.883742523379624,
+      "basis": "All 55 compressed wheels simultaneously present during pip; --no-cache-dir prevents persistent pip cache"
+    },
+    {
+      "name": "image_export_push_scratch",
+      "bytes": 5233912434,
+      "gib": 4.874460803344846,
+      "basis": "Larger of measured wheel archives or 65% of installed dependency layer; no docker save/export tar archive"
+    },
+    {
+      "name": "filesystem_and_evidence_overhead",
+      "bytes": 536870912,
+      "gib": 0.5,
+      "basis": "0.5 GiB estimate for Docker metadata, context and retained logs"
+    },
+    {
+      "name": "clean_stop_diagnostics_reserve",
+      "bytes": 4294967296,
+      "gib": 4.0,
+      "basis": "4 GiB maintained as active low-space stop trigger; not capacity available to the build"
+    }
+  ],
+  "sum_bytes": 46958959071,
+  "sum_gib": 43.7339386632666,
+  "minimum_free_bytes": 47244640256,
+  "minimum_free_gib": 44.0,
+  "rounding": "ceil to whole GiB",
+  "stop_free_bytes": 4294967296,
+  "sample_interval_seconds": 1,
+  "base_pull_peak_estimate_bytes": 26678101434,
+  "cache_policy": "pip --no-cache-dir; classic Docker store; builder prune after build; no image archive saved; digest pull reuses local content",
+  "limits": "Expansion/compression factors and overheads are explicit estimates. Sampled filesystem peak can miss sub-second spikes. This is not a proven storage bound."
+}
