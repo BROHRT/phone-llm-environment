@@ -22,22 +22,7 @@ jobs:
       - name: Check architecture and prepare disk headroom
         shell: bash
         run: |
-          set -euo pipefail
-          mkdir -p evidence
-          test "$(uname -m)" = x86_64
-          test "$(uname -s)" = Linux
-          df -B1 . > evidence/disk-before.txt
-          # Only disposable hosted-runner toolchains, never project files.
-          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /usr/local/.ghcup /opt/hostedtoolcache /usr/local/share/powershell /usr/local/swift
-          docker image prune --all --force
-          df -B1 . > evidence/disk-after.txt
-          /usr/bin/python3 - <<'PY'
-          import json,pathlib,shutil,platform,time
-          free=shutil.disk_usage('.').free
-          record={'issued_unix':time.time(),'system':platform.system(),'architecture':platform.machine(),'free_bytes':free,'minimum_free_bytes':55*1024**3,'gpu_requested':False,'disk_requirement_is_preflight_not_measured_peak':True}
-          pathlib.Path('evidence/runner.json').write_text(json.dumps(record,indent=2)+'\n')
-          if free<record['minimum_free_bytes']:raise SystemExit('Insufficient disk: require55GiB before pulling/building multi-gigabyte image')
-          PY
+          bash prepare_runner.sh
       - name: Authenticate GHCR with this job token only
         env:
           GHCR_TOKEN: ${{ github.token }}
@@ -46,7 +31,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          /usr/bin/python3 -u build_image.py --tag "$IMAGE_REPOSITORY:stack-$GITHUB_SHA" --out evidence/build --publish 2>&1 | tee evidence/build-driver.log
+          /usr/bin/python3 measure_disk.py --path "$BUILD_ROOT/docker" --out evidence/disk-usage &
+          monitor=$!
+          finish() { kill -TERM "$monitor" 2>/dev/null || true; wait "$monitor" || true; }
+          trap finish EXIT
+          /usr/bin/python3 -u "$BUILD_ROOT/context/build_image.py" --tag "$IMAGE_REPOSITORY:stack-$GITHUB_SHA" --out "$GITHUB_WORKSPACE/evidence/build" --publish 2>&1 | tee evidence/build-driver.log
       - name: Record actual immutable image reference
         run: |
           /usr/bin/python3 - <<'PY'
