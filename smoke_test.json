@@ -1,0 +1,8 @@
+{
+  "input": {
+    "mode": "smoke_test",
+    "experiment_id": "smoke-test-001",
+    "min_free_vram_gb": 20,
+    "min_free_disk_gb": 1
+  }
+}

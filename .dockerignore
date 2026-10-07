@@ -1,0 +1,6 @@
+# Root build context = the RunPod Serverless worker only. (The environment image builds from image/ with its own
+# .dockerignore via .github/workflows/build-image.yml and is unaffected by this file.)
+*
+!Dockerfile
+!handler.py
+!serverless/requirements.lock
